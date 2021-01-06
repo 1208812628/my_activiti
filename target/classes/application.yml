@@ -1,0 +1,18 @@
+server:
+  port: 8099
+  servlet:
+    context-path: /activiti
+spring:
+  application:
+    name: activiti
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/srcb_activiti?autoReconnect=true&characterEncoding=utf8&useSSL=false&serverTimezone=UTC
+    username: root
+    password: 123456
+  activiti:
+    check-process-definitions: false
+  jpa:
+    properties:
+      hibernate:
+        enable_lazy_load_no_trans=true:

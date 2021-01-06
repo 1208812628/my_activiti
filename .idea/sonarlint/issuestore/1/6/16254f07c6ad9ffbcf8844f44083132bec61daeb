@@ -1,0 +1,7 @@
+
+c
+java:S44885"HReplace "@RequestMapping(method = RequestMethod.GET)" with "@GetMapping"(–±Ôùúÿÿÿÿ
+^
+java:S1128"HRemove this unused import 'com.fasterxml.jackson.annotation.JsonIgnore'.(þ‘‹„
+U
+java:S1128":Remove this unused import 'org.activiti.engine.task.Task'.(¯ÍËÈýÿÿÿÿ
